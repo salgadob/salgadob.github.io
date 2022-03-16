@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BLIP WEB QA</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                First value: <input type="number" id="firstValue">
+            </div>
+            <div class="column-center">
+                <div class="custom-select" style="width:200px;">
+                    <select id="select">
+                        <option value="0">Operation:</option>
+                        <option value="1">Add</option>
+                        <option value="2">Subtract</option>
+                        <option value="3">Multiply</option>
+                        <option value="4">Divide</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column">
+                Second value: <input type="number" id="secondValue">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button id="calc">Calculate</button>
+            </div>
+        </div>
+
+        <div class="result-box">
+            <div class="row">
+                <div class="column">
+                    <div class="result">
+                        Result:
+                    </div>
+                </div>
+                <div class="column-center">
+                    <div id="resultValue" class="result-value"></div>
+                </div>
+                <div class="column">
+                    <div id="randColor" style="display:none"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</section>
+<script src="index.js"></script>
+</body>
+</html>

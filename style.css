@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Monaco", monospace;
+    font-size: 75%;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: left;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+input {
+    width: 35%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.column-center {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.container {
+    border-radius: 25px;
+    background-color: lightgrey;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+
+.result-value {
+    border-radius: 25px;
+    border: 2px #73AD21;
+    overflow: hidden;
+    background-color: #999999;
+    text-align: center;
+}
