@@ -53,6 +53,12 @@ input {
     height: 200px;
 }
 
+#randColor {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 
 .result-value {
     border-radius: 25px;
